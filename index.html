@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+
+	<link href = "style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div id="nav">
+		<img src="img/logo.png">
+	</div>
+	<h1>Sign Up</h1>
+	<div id="button">
+		<p>Already have a Game Box account? <a href="">Log In</a></p>
+	</div>
+	<form id = "registerForm" action="http://localhost:8000/" method="post">
+	<div id="outline">
+			<div class="un">
+				<div id="nrepeat" class="nrepeat_dis">Already Taken</div>
+				<h2>User Name</h2>
+				<input type="text" value="(username)" onfocus="if (value =='(username)'){value =''}" onblur=" if (value ==''){value='(username)'}" name="username" />
+			</div>
+			<p id="uerr">User name should be 6~18 digits of characters number or underscore, and must begin with a character.</p>
+			<div class="un">
+				<div id="irepeat" class="irepeat_dis">Already Taken</div>
+				<h2>Student ID</h2>
+				<input type="text" value="(8 digits students ID)" onfocus="if (value =='(8 digits students ID)'){value =''}" onblur=" if (value ==''){value='(8 digits students ID)'}" name="id">
+			</div>
+			<p id="ierr">8 digits student ID.</p>
+			<div class="un">
+				<div id="prepeat" class="prepeat_dis">Already Taken</div>
+				<h2>Phone</h2>
+				<input type="text" value="(13900000000)" onfocus="if (value =='(13900000000)'){value =''}" onblur=" if (value ==''){value='(13900000000)'}" name="phone">
+			</div>
+			<p id="perr">11 digits phone number.</p>
+			<div class="un">
+				<div id="erepeat" class="erepeat_dis">Already Taken</div>
+				<h2>E-Mail</h2>
+				<input type="text" value="(name@example.com)" onfocus="if (value =='(name@example.com)'){value =''}" onblur=" if (value ==''){value='(name@example.com)'}" name="email">
+			</div>
+			<p id="eerr">Invalid email address.</p>
+			<input type="submit" value="Sign Up" id="button2">
+			<input type="reset" value="R" id="reset">
+	</div>
+	</form>
+	<div id="info">
+		<p>* By signing up, you agree to our <a href="">Terms of Use</a>, <a href="">Privacy Policy</a> and to receive Game Box emails, newsletters & updates.</p>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="local.js"></script>
+</body>
+</html>

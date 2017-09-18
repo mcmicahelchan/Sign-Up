@@ -1,0 +1,107 @@
+
+body
+{
+	font-family: T'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+	font-size: 12px;
+	background-image: url(img/bg.jpg);
+	background-size:cover;
+	margin:0px;
+}
+#nav
+{
+	width:auto;
+	height: 42px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-bottom: solid 1px;
+	border-color: rgb(237,237,237);
+	font-size: 14px;
+	padding: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: white;
+}
+#nav img
+{
+	width:150px;
+	position: relative;
+	top: -3px;
+}
+
+h1
+{
+	text-align: center;
+	font-weight: normal;
+	font-size: 55px;
+	padding-top: 75px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+}
+#u1
+{
+	position: relative;
+	top: -59px;
+	text-align: right;
+	padding-right: 44px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #459fec;
+}
+#u2
+{
+	position: relative;
+	top: -45px;
+	text-align: right;
+	padding-right: 46px;
+	font-size: 10px;
+	font-style: italic;
+	color: #858f96;
+}
+#u3
+{
+	position: relative;
+	top: -81px;
+	text-align: right;
+	padding-right: 46px;
+	font-size: 10px;
+	font-style: italic;
+	color: #858f96;
+}
+#u4
+{
+	position: relative;
+	top: -118px;
+	text-align: right;
+	padding-right: 45px;
+	font-size: 10px;
+	font-style: italic;
+	color: #858f96;
+}
+#but
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 205px;
+	position: relative;
+	bottom: -300px;
+}
+button
+{
+	width: 200px;
+	height: 35px;
+	background-color: white;
+	border:none;
+	font-size: 10px;
+	opacity: 85%;
+	transition-duration: .3s;
+}
+button:hover
+{
+	background-color: #cccccc;
+}
+button:focus
+{
+	outline: none;
+}
